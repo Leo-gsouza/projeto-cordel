@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px 0px;
+}
+
+header{
+    background-color: black;
+}
+
+header h1{
+    color: white;
+}
