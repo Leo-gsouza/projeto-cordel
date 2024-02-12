@@ -7,3 +7,14 @@ footer{
     text-align: center;
     padding: 10px;
 }
+
+footer > p > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+footer > p > a:hover{
+    color: lightgreen;
+    text-decoration: underline;
+}

@@ -8,7 +8,10 @@ section{
     padding-left: 30px;
     font-family: var(--fonte2);
     font-size: 3vw;
+}
 
+section p{
+    padding-bottom: 1em;
 }
 
 section.normal{
@@ -18,11 +21,26 @@ section.normal{
 
 section.imagem{
     background-color: rgba(0, 0, 0, 0.671);
-    color: white;  
+    color: white; 
+    box-shadow: inset 4px 4px 13px 0px rgba(0, 0, 0, 0.459); 
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 section.imagem > p{
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.555);
+    text-shadow: 1px 1px 0px black;
 }
+
+section#img01{
+    background-image:  url('../imagens/background001.jpg') ;
+    background-position: right center;
+}
+
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: center center;
+}
+
