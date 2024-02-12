@@ -1,13 +1,30 @@
 @charset "UTF-8";
 
-*{
-    margin: 0px 0px;
-}
 
 header{
     background-color: black;
+    color: white;
+    text-align: center;
 }
 
-header h1{
+header > h1{
+    font-variant: small-caps;
+    padding-top: 50px;
+    font-family: var(--fonte3);
+    font-size: 9vw;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+header > p > a{
     color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
+    color: lightgreen;
 }
